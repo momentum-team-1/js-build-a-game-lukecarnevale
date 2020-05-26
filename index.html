@@ -4,10 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>The RUN Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <script src="keyboarder.js" defer></script>
+  <script src="game.js" defer></script>
 </head>
-<body>
-  
+<body> 
+    <class class="container">
+      <button id="start" onclick="beginGame()">Start</button>
+        <canvas class="game" id = "canvas" width="300" height="300"></canvas>
+        </canvas>
+      <div class="scoreboard"></div>
+      <div id="finalScore">
+        <h1 id="score-text"></h1>
+        <button class="play-again" onclick="restart()">Play Again</button>
+      </div>
+    </class>  
+
 </body>
 </html>

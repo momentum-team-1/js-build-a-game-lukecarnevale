@@ -1,0 +1,35 @@
+.container {
+    /* width: 100vw;
+    height: 100vh; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  }
+
+#start {
+  margin-bottom: 2rem; 
+}
+
+#finalScore {
+  height: 300px;
+  width: 300px;
+  background: black;
+  color: white; 
+  position: absolute;
+  font-size: 32px;
+  display: flex;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 2s;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+}
+
+#canvas{
+    border: groove blue 10px;
+    margin-bottom: 2rem;
+}
